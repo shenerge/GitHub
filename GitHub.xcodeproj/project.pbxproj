@@ -13,6 +13,7 @@
 		4A56A6CE1CFBC965003B39DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A56A6CC1CFBC965003B39DA /* Main.storyboard */; };
 		4A56A6D01CFBC965003B39DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A56A6CF1CFBC965003B39DA /* Assets.xcassets */; };
 		4A56A6D31CFBC965003B39DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A56A6D11CFBC965003B39DA /* LaunchScreen.storyboard */; };
+		4A56A6DC1CFBCD26003B39DA /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A56A6DB1CFBCD26003B39DA /* First.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4A56A6CF1CFBC965003B39DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A56A6D21CFBC965003B39DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A56A6D41CFBC965003B39DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A56A6DA1CFBCD26003B39DA /* First.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
+		4A56A6DB1CFBCD26003B39DA /* First.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4A56A6C71CFBC965003B39DA /* AppDelegate.m */,
 				4A56A6C91CFBC965003B39DA /* ViewController.h */,
 				4A56A6CA1CFBC965003B39DA /* ViewController.m */,
+				4A56A6DA1CFBCD26003B39DA /* First.h */,
+				4A56A6DB1CFBCD26003B39DA /* First.m */,
 				4A56A6CC1CFBC965003B39DA /* Main.storyboard */,
 				4A56A6CF1CFBC965003B39DA /* Assets.xcassets */,
 				4A56A6D11CFBC965003B39DA /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				4A56A6CB1CFBC965003B39DA /* ViewController.m in Sources */,
 				4A56A6C81CFBC965003B39DA /* AppDelegate.m in Sources */,
+				4A56A6DC1CFBCD26003B39DA /* First.m in Sources */,
 				4A56A6C51CFBC965003B39DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +308,7 @@
 				4A56A6D91CFBC965003B39DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
